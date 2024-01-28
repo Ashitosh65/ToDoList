@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(banner.png);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#todo-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color:	#42676f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+#todo-container ,label{
+  color: black;
+}
+
+#table {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: 		#42676f;
+  border-radius: 8px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#task-table th, #task-table td {
+  border: 4px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #000000;
+  font-style: italic;
+}
+
+ 
+
+@media (max-width: 550px) {
+  #todo-container {
+    width: 90%;
+  }
+  body {
+    display: block;
+  }
+  #table {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  #todo-container {
+    width: 90%;
+  }
+  body {
+    display: block;
+  }
+  #table {
+    width: 90%;
+  }
+}
